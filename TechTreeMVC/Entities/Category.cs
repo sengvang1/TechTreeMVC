@@ -12,7 +12,7 @@ namespace TechTreeMVC.Entities
         public int Id { get; set; }
         [Required]
         [StringLength(200, MinimumLength = 2)]
-        public int Title { get; set; }
+        public string Title { get; set; }
         public string Description { get; set; }
         [Required]
         public string ThumbnailImagePath { get; set; }
